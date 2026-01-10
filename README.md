@@ -2,7 +2,7 @@
 
 
 
-# (Home)
+
 # week1
 Planning, system setup, architecture
 # week2
