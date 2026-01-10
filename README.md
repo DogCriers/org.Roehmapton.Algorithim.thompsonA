@@ -1,5 +1,13 @@
 # org.Roehmapton.Algorithim.thompsonA
 /
+mkdir technical-journal
+cd technical-journal
+git init
+mkdir entries
+touch entries/$(date +"%Y-%m-%d").md
+git add .
+git commit -m "Initial journal"
+
 ├── index.md        (Home)
 ├── week1.md 
 Planning, system setup, architecture
