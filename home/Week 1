@@ -2,3 +2,6 @@ For the server I opted for Ubuntu server 22.04 and for the workstation I opted f
 
 
 ![Screenshot 2026-01-11 190745.png](./images/Screenshot 2026-01-11 190745.png)
+
+The system architecture incoporates a dual-machine design. 
+The Ubuntu server runs with no graphical interface A VirtualBox Host-Only network ensures traffic remains isolated from external networks, supporting ethical and secure testing. A firewall restricts SSH access so only the workstation can connect.
