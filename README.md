@@ -3,23 +3,25 @@
 
 
 
-# week1
+## week1
 Planning, system setup, architecture
 
-# week2
+## week2
 Security plan + threat model
 
-# week3
+## week3
 Application selection + performance plan
 
-# week4 
+## week4 
 SSH + firewall + initial security
 
-# week5
+## week5
 Advanced security + scripts
 
-# week6
+## week6
 Performance testing + optimisation
 
-# week7
+## week7
 Security audit + conclusion
+
+## Findings
