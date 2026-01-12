@@ -1,12 +1,12 @@
 # Security Configuration Checklist
-// SSH key-based authentication
-// Passwork login disabled
-// Non-root admin user (sudo only)
-// Allow SSH only from workstation address
-// Routine security updates dont automatically
-// AppArmor and SELinux configured
-// Fail2ban configured
-// Security baseline verification script created
+### SSH key-based authentication
+### Passwork login disabled
+### Non-root admin user (sudo only)
+### Allow SSH only from workstation address
+### Routine security updates dont automatically
+### AppArmor and SELinux configured
+### Fail2ban configured
+### Security baseline verification script created
 
 Threat model
 | Threat                      | Risk                | Mitigation                   |
