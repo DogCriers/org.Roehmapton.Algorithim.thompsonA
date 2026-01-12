@@ -1,1 +1,17 @@
+Advanced security + scripts
 
+# Commands
+
+## Enable automatic updates
+sudo apt install unattended-upgrades
+sudo dpkg-reconfigure unattended-upgrades
+
+## Intall fail2ban
+
+sudo apt install fail2ban
+sudo systemctl enable fail2ban
+sudo systemctl status fail2ban
+
+## AppArmor enable
+
+sudo aa-status
