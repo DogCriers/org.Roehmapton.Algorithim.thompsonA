@@ -2,26 +2,26 @@ Additional security Implementation
 
 # Commands
 
-Creating an Admin User:
+## Creating an Admin User:
 
   adduser adminuser
   usermod -aG sudo adminuser
 
-SSH Key Setup:
+## SSH Key Setup:
 
     ssh-keygen
     ssh-copy-id adminuser@serverIP
 
-Disable password login:
+## Disable password login:
 
   sudo nano /etc/ssh/sshd_config
   PasswordAuthentication no
 
-Restart SSH:
+## Restart SSH:
 
   sudo systemctl restart ssh
 
-Firewall
+## Firewall
 
   sudo apt install ufw
   sudo ufw allow from <workstation IP> to any port 22
