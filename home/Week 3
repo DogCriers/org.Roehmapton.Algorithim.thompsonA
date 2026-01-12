@@ -1,1 +1,10 @@
+# Performance Testing plan
+
+| Type               |           Tool         |
+| ------------------ | ---------------------- |
+| CPU                |  sysbench              |
+| Memory             |  stress                |
+| Disk I/O           |  fio                   |
+| Network            |  iperf3                |
+| Server application | Apache or Nginx        |
 
