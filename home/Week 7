@@ -1,1 +1,7 @@
+Security audit
 
+## commands
+ sudo lynis audit system
+ nmap -sV serverIP
+
+Final Evaluation
